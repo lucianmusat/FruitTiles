@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:screenOrientation="portrait" >
+ 
+     <ImageView
+        android:id="@+id/thanks"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+	    android:layout_marginTop="55dp"
+        android:src="@drawable/thanks"
+         />
+
+</LinearLayout>
