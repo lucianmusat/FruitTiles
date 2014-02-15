@@ -11,116 +11,210 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2089efd-afe3-45c9-a17a-fd64af391d09" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/at/lucianmus/fruittiles/About.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/amibadesign/fruittiles/About.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/amibadesign/fruittiles/Game.java" afterPath="$PROJECT_DIR$/app/src/main/java/at/lucianmus/fruittiles/Game.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/amibadesign/fruittiles/HighScore.java" afterPath="$PROJECT_DIR$/app/src/main/java/at/lucianmus/fruittiles/HighScore.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/amibadesign/fruittiles/ImageAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/at/lucianmus/fruittiles/ImageAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/amibadesign/fruittiles/MainMenu.java" afterPath="$PROJECT_DIR$/app/src/main/java/at/lucianmus/fruittiles/MainMenu.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/amibadesign/fruittiles/SquareImageView.java" afterPath="$PROJECT_DIR$/app/src/main/java/at/lucianmus/fruittiles/SquareImageView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/amibadesign/fruittiles/Tile.java" afterPath="$PROJECT_DIR$/app/src/main/java/at/lucianmus/fruittiles/Tile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FruitTiles.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ic_launcher-web - Copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ic_launcher-web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/android-support-v4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/about.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/about_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/blank.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/blank2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/exit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/high1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/high2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/high3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/high4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/high5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/high6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/high7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/high8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/high9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/highscores.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/highscores_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/newgame.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/newgame_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/reset.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/reset_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/small1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/small2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/small3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/small4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/thanks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tile1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tile1_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tile2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tile2_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tile3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tile3_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tile4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tile4_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tile5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tile5_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tile6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tilefive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tilefive_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tilefour.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tilefour_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tileone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tileone_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tileseven.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tileseven_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tilesix.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tilesix_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tilesix_xbig.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tilethree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tilethree_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tiletwo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tiletwo_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tilezero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tilezero_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tilezero_xbig.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/about.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/highscores.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/newgame.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/reset.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/tile1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/tile2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/tile3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/tile4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/tile5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/tilefive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/tilefour.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/tileone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/tileseven.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/tilesix.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/tilethree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/tiletwo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-large-hdpi/tilezero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/about.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/highscores.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/newgame.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/reset.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/about.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/highscores.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/newgame.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/reset.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/about.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/highscores.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/newgame.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/reset.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/tile1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/tile2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/tile3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/tile4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/tile5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/tilefive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/tilefour.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/tileone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/tileseven.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/tilesix.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/tilethree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/tiletwo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/tilezero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/about.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/highscores.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/newgame.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/reset.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/tile1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/tile2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/tile3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/tile4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/tile5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/tilefive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/tilefour.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/tileone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/tileseven.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/tilesix.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/tilethree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/tiletwo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/tilezero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/amibadesign/fruittiles/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/amibadesign/fruittiles/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proguard-project.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/animation1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/animation1_big.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/animation2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/animation2_big.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/animation3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/animation3_big.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/animation4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/animation5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/animation6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/animation7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/animation8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/animation_reverse.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/close_animation.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/highscore_animation.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-large/fourbyfive.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-large/fourbyfour.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-large/main_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-sw320dp/fourbyfive.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-sw320dp/main_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-sw360dp/fourbyfour.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-sw360dp/main_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-sw600dp/fourbyfive.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-sw600dp/fourbyfour.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-sw600dp/main_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-sw600dp/threebyfour.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-sw600dp/twobythree.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-sw600dp/twobytwo.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-sw720dp/fourbyfive.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-sw720dp/fourbyfour.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-sw720dp/main_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-sw720dp/threebyfour.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-sw720dp/twobythree.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-sw720dp/twobytwo.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/about.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/fourbyfive.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/fourbyfour.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/highscore.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/main_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/threebyfour.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/twobythree.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/twobytwo.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-sw600dp/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-sw720dp-land/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-v11/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-v14/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/amibadesign/fruittiles/About.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/amibadesign/fruittiles/FourByFive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/amibadesign/fruittiles/FourByFour.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/amibadesign/fruittiles/HighScore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/amibadesign/fruittiles/MainMenu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/amibadesign/fruittiles/ThreeByFour.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/amibadesign/fruittiles/TileFive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/amibadesign/fruittiles/TileFour.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/amibadesign/fruittiles/TileOne.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/amibadesign/fruittiles/TileThree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/amibadesign/fruittiles/TileTwo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/amibadesign/fruittiles/TwoByThree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/amibadesign/fruittiles/TwoByTwo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/about.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/about.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/about_pressed.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/about_pressed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/highscores.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/highscores.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/highscores_pressed.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/highscores_pressed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/newgame.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/newgame.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/newgame_pressed.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/newgame_pressed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/reset.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/reset.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/reset_pressed.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/reset_pressed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/small1.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/small1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/small2.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/small2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/small3.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/small3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/small4.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/small4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/thanks.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/thanks.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tile1.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tile1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tile2.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tile2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tile3.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tile3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tile4.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tile4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tile5.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tile5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tile6.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tile6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tileeight.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tileeight.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tilefive.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tilefive.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tilefour.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tilefour.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tilenine.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tilenine.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tileone.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tileone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tileseven.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tileseven.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tilesix.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tilesix.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tilethree.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tilethree.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tiletwo.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tiletwo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tilezero.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tilezero.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/about.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/about.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/highscores.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/highscores.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/newgame.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/newgame.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/reset.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/reset.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tile1.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tile1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tile2.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tile2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tile3.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tile3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tile4.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tile4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tile5.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tile5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tilefive.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tilefive.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tilefour.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tilefour.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tileone.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tileone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tileseven.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tileseven.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tilesix.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tilesix.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tilethree.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tilethree.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tiletwo.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tiletwo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tilezero.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-large-hdpi/tilezero.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/about.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/about.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/highscores.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/highscores.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/newgame.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/newgame.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/reset.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/reset.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/about.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/about.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/highscores.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/highscores.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/newgame.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/newgame.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/reset.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/reset.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/about.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/about.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/highscores.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/highscores.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/newgame.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/newgame.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/reset.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/reset.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tile1.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tile1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tile2.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tile2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tile3.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tile3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tile4.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tile4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tile5.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tile5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tilefive.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tilefive.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tilefour.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tilefour.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tileone.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tileone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tileseven.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tileseven.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tilesix.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tilesix.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tilethree.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tilethree.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tiletwo.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tiletwo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tilezero.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tilezero.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/about.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/about.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/highscores.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/highscores.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/newgame.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/newgame.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/reset.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/reset.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tile1.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tile1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tile2.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tile2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tile3.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tile3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tile4.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tile4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tile5.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tile5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tilefive.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tilefive.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tilefour.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tilefour.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tileone.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tileone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tileseven.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tileseven.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tilesix.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tilesix.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tilethree.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tilethree.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tiletwo.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tiletwo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tilezero.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tilezero.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/about.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/about.xml" />
     </list>
     <ignored path="FruitTiles.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -2216,7 +2310,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512084137498" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512084475827" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2264,7 +2358,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512084137498" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512084475827" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2447,7 +2541,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512084137499" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512084475828" />
       </method>
     </configuration>
     <list size="1">
