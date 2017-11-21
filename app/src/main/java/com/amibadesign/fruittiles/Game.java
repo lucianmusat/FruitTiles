@@ -71,46 +71,36 @@ public class Game extends Activity {
         gameGridView.setAdapter(imgAdapter);
 
         gameGridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
-                imgAdapter.tiles.get(position).flipTile();
+
+                imgAdapter.tiles.get(position).flipTile(false);
+
                 for (int i=0; i<imgAdapter.tiles.size(); i++){
                     if (imgAdapter.tiles.get(i).isFlipped() && !imgAdapter.tiles.get(i).isDisabled())
                         totalFlipped++;
                 }
-                Log.i("FruitTiles","Flipped tiles: " + totalFlipped);
-                Log.i("Game","Pressed : " + imgAdapter.tiles.get(position).getValue());
 
                 // If a third tile is totalFlipped, flip back the first two
                 if (totalFlipped > 2) {
                     for (int i = 0; i < imgAdapter.tiles.size(); i++) {
                         if (i != position && imgAdapter.tiles.get(i).isFlipped() && !imgAdapter.tiles.get(i).isDisabled())
-                            imgAdapter.tiles.get(i).flipTile();
+                            imgAdapter.tiles.get(i).flipTile(false);
                     }
                 }
 
                 // If the tiles have the same image, close them both
                 if (totalFlipped == 2){
-                    int position1 =-1;
-                    int position2 = -1;
-                    int value1 = -1;
-                    int value2 = -2;
+                    int previousTilePosition = -1;
                     for (int i=0; i<imgAdapter.tiles.size(); i++){
-                        if (imgAdapter.tiles.get(i).isFlipped() && !imgAdapter.tiles.get(i).isDisabled() && value1 == -1) {
-                            value1 = imgAdapter.tiles.get(i).getValue();
-                            position1 = i;
-                        }
-                        if (imgAdapter.tiles.get(i).isFlipped() && !imgAdapter.tiles.get(i).isDisabled() && value1 != -1) {
-                            value2 = imgAdapter.tiles.get(i).getValue();
-                            position2 = i;
-                        }
+                        if (imgAdapter.tiles.get(i).isFlipped() && !imgAdapter.tiles.get(i).isDisabled() && i != position)
+                            previousTilePosition = i;
                     }
-                    if (value1 == value2 && position1 != position2){
-                        if (imgAdapter.tiles.get(position1).isFlipped())
-                            imgAdapter.tiles.get(position1).closeTile();
-                        if (imgAdapter.tiles.get(position2).isFlipped())
-                            imgAdapter.tiles.get(position2).closeTile();
+                    if (imgAdapter.tiles.get(position).getValue() == imgAdapter.tiles.get(previousTilePosition).getValue()){
+                        imgAdapter.tiles.get(position).flipTile(true);
+                        imgAdapter.tiles.get(previousTilePosition).closeTile(); // TODO: add a delay here too
                     }
                 }
 
