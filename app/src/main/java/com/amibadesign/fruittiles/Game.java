@@ -56,7 +56,6 @@ public class Game extends Activity {
 
         // Get number of tiles
         nrTiles = Integer.parseInt(getIntent().getStringExtra("NR_TILES"));
-        highscoreImg = (ImageView) findViewById(R.id.HighScore);
 
         // To measure the time it takes to complete the level
         startTime = System.nanoTime();
@@ -144,7 +143,6 @@ public class Game extends Activity {
         });
     }
 
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -176,7 +174,6 @@ public class Game extends Activity {
     @Override
     public void onBackPressed() {
         if (doubleBackToExitPressedOnce) {
-            MainMenu.resetAll();
             Intent i = new Intent(getContext(), MainMenu.class);
             i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             getContext().startActivity(i);
@@ -189,7 +186,6 @@ public class Game extends Activity {
             @Override
             public void run() {
                 doubleBackToExitPressedOnce=false;
-
             }
         }, 2000);
     }

@@ -37,7 +37,7 @@ public class ImageAdapter extends BaseAdapter {
 
         // Set randomized values to the tiles
         for(int i=0; i<nrTiles; i++)
-            tiles.add(new Tile((Activity)c, R.id.imageView1, values.get(i)));
+            tiles.add(new Tile((Activity)c, R.id.Tile, values.get(i)));
     }
 
 

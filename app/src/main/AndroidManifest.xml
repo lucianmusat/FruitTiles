@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.amibadesign.fruittiles"
     android:versionCode="5"
     android:versionName="1.4" >
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="15" />
+        android:targetSdkVersion="15"
+        tools:ignore="GradleOverrides" />
 
     <application
         android:allowBackup="true"
@@ -24,14 +26,9 @@
             </intent-filter>
         </activity>
         
-        <activity android:name="com.amibadesign.fruittiles.FourByFour"></activity>
-        <activity android:name="com.amibadesign.fruittiles.HighScore"></activity>
-		<activity android:name="com.amibadesign.fruittiles.About"></activity>  
-		<activity android:name="com.amibadesign.fruittiles.TwoByTwo"></activity>   
-		<activity android:name="com.amibadesign.fruittiles.TwoByThree"></activity>  
-		<activity android:name="com.amibadesign.fruittiles.ThreeByFour"></activity> 
-		<activity android:name="com.amibadesign.fruittiles.FourByFive"></activity>
-        <activity android:name="com.amibadesign.fruittiles.Game"></activity>
+        <activity android:name="com.amibadesign.fruittiles.HighScore" />
+		<activity android:name="com.amibadesign.fruittiles.About" />
+        <activity android:name="com.amibadesign.fruittiles.Game" />
         
         
     </application>

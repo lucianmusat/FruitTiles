@@ -21,7 +21,6 @@ public class MainMenu extends Activity {
 		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 		setContentView(R.layout.main_menu); 
 		addListenerOnButton();
-		resetAll();
 	}
  
 	public void addListenerOnButton() {
@@ -35,7 +34,6 @@ public class MainMenu extends Activity {
  
 			@Override
 			public void onClick(View arg0) {
-				
 				newGameButton.setBackgroundResource(R.drawable.newgame_pressed);
 				newGameButton.setHeight(65);
 				newGameButton.setWidth(390);
@@ -47,17 +45,14 @@ public class MainMenu extends Activity {
 						intent.putExtra("NR_TILES", "4");
 						startActivity(intent);
 		            }
-		        }, 300);	
- 
+		        }, 300);
 			}
- 
 		});
 		
 		aboutButton.setOnClickListener(new OnClickListener() {
 			 
 			@Override
 			public void onClick(View arg0) {
-				
 				aboutButton.setBackgroundResource(R.drawable.about_pressed);
 				aboutButton.setHeight(59);
 				aboutButton.setWidth(327);
@@ -70,14 +65,12 @@ public class MainMenu extends Activity {
 		            }
 		        }, 300);
 			}
- 
 		});
 		
 		highscoreButton.setOnClickListener(new OnClickListener() {
 			 
 			@Override
 			public void onClick(View arg0) {
-				
 				highscoreButton.setBackgroundResource(R.drawable.highscores_pressed);
 				highscoreButton.setHeight(75);
 				highscoreButton.setWidth(390);
@@ -90,7 +83,6 @@ public class MainMenu extends Activity {
 		            }
 		        }, 300);
 			}
- 
 		});
 	}
 	
@@ -103,49 +95,11 @@ public class MainMenu extends Activity {
         this.doubleBackToExitPressedOnce = true;
         Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show();
         new Handler().postDelayed(new Runnable() {
-
             @Override
             public void run() {
-             doubleBackToExitPressedOnce=false;   
-
+             doubleBackToExitPressedOnce=false;
             }
         }, 2000);
     } 
-    
-    public static void resetAll(){
-    	
-		TwoByTwo.flipped=0;
-		TwoByTwo.firstTile=null;
-		TwoByTwo.secondTile=null;
-		TwoByTwo.active_tiles=4;
-		TwoByTwo.startTime=0L;
-		TwoByTwo.stopTime=0L;
-		TwoByTwo.elapsed=0L;
-		
-		TwoByThree.flipped=0;
-		TwoByThree.firstTile=null;
-		TwoByThree.secondTile=null;
-		TwoByThree.active_tiles=6;
-		TwoByThree.startTime=0L;
-		TwoByThree.stopTime=0L;
-		TwoByThree.elapsed=0L;
-		
-		FourByFour.flipped=0;
-		FourByFour.firstTile=null;
-		FourByFour.secondTile=null;
-		FourByFour.active_tiles=16;
-		FourByFour.startTime=0L;
-		FourByFour.stopTime=0L;
-		FourByFour.elapsed=0L;
-		
-		FourByFive.flipped=0;
-		FourByFive.firstTile=null;
-		FourByFive.secondTile=null;
-		FourByFive.active_tiles=20;
-		FourByFive.startTime=0L;
-		FourByFive.stopTime=0L;
-		FourByFive.elapsed=0L;
-    	
-    }
- 
+
 }

@@ -90,12 +90,12 @@ public class HighScore extends Activity {
 	
 	public static long getHighscore1() {
 		SharedPreferences app_preferences = PreferenceManager.getDefaultSharedPreferences(context);
-		long test = app_preferences.getLong("highscore2x2", 0);
+		long test = app_preferences.getLong("highscore4", 0);
 	    return test;
 	}
 	public static long getHighscore2() {
 		SharedPreferences app_preferences = PreferenceManager.getDefaultSharedPreferences(context);
-		long test = app_preferences.getLong("highscore2x3", 0);
+		long test = app_preferences.getLong("highscore16", 0);
 	    return test;
 	}
 	public static long getHighscore3() {
@@ -116,8 +116,8 @@ public class HighScore extends Activity {
     private void setHighscore(long data) {
         SharedPreferences app_preferences = PreferenceManager.getDefaultSharedPreferences(context); 
         SharedPreferences.Editor editor = app_preferences.edit();
-        editor.putLong("highscore", data);
-        editor.putLong("highscore2x2", data);
+        editor.putLong("highscore4", data);
+        editor.putLong("highscore16", data);
         editor.putLong("highscore2x3", data);
         editor.putLong("highscore3x4", data);
         editor.putLong("highscore4x4", data);
@@ -128,7 +128,6 @@ public class HighScore extends Activity {
     @Override
     public void onBackPressed() {
         if (doubleBackToExitPressedOnce) {
-        	MainMenu.resetAll();
 			Intent i = new Intent(getApplicationContext(), MainMenu.class);
 			i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 			getApplicationContext().startActivity(i);

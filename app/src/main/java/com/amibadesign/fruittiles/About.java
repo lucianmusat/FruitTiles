@@ -20,13 +20,11 @@ public class About extends Activity {
 		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 		setContentView(R.layout.about);		
 		ImageView img = (ImageView) findViewById(R.drawable.thanks);
- 
 	}		
 	
     @Override
     public void onBackPressed() {
         if (doubleBackToExitPressedOnce) {
-        	MainMenu.resetAll();
 			Intent i = new Intent(getApplicationContext(), MainMenu.class);
 			i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 			getApplicationContext().startActivity(i);
@@ -38,8 +36,7 @@ public class About extends Activity {
 
             @Override
             public void run() {
-             doubleBackToExitPressedOnce=false;   
-
+             doubleBackToExitPressedOnce=false;
             }
         }, 2000);
     } 	
