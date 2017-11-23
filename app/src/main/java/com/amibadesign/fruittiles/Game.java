@@ -56,16 +56,15 @@ public class Game extends Activity {
 
         // Get number of tiles
         nrTiles = Integer.parseInt(getIntent().getStringExtra("NR_TILES"));
-
-        startTime=System.nanoTime();
         highscoreImg = (ImageView) findViewById(R.id.HighScore);
 
+        // To measure the time it takes to complete the level
+        startTime = System.nanoTime();
 
-        //Toast.makeText(context,"Old Highscore: "+getHighscore(),Toast.LENGTH_SHORT).show();
-        Toast.makeText(context,"Level 1 ",Toast.LENGTH_SHORT).show();
-//        Log.i("FruitTiles","Active tiles: "+tiles.size());
+        Toast.makeText(context,nrTiles + " tiles",Toast.LENGTH_SHORT).show();
 
-        GridView gameGridView = (GridView)findViewById(R.id.gameGrid);
+        // Create a grid with all the tiles
+        final GridView gameGridView = (GridView)findViewById(R.id.gameGrid);
         gameGridView.setNumColumns((int) Math.sqrt(nrTiles));
         final ImageAdapter imgAdapter = new ImageAdapter(this, nrTiles);
         gameGridView.setAdapter(imgAdapter);
@@ -76,6 +75,7 @@ public class Game extends Activity {
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
 
+                gameGridView.setEnabled(false);
                 imgAdapter.tiles.get(position).flipTile(false);
 
                 for (int i=0; i<imgAdapter.tiles.size(); i++){
@@ -100,11 +100,46 @@ public class Game extends Activity {
                     }
                     if (imgAdapter.tiles.get(position).getValue() == imgAdapter.tiles.get(previousTilePosition).getValue()){
                         imgAdapter.tiles.get(position).flipTile(true);
-                        imgAdapter.tiles.get(previousTilePosition).closeTile(); // TODO: add a delay here too
+                        imgAdapter.tiles.get(previousTilePosition).closeTile(500);
+
+                        // Check if all tiles have been closed
+                        boolean tilesStillExist = false;
+                        for (int i=0; i<imgAdapter.tiles.size(); i++)
+                            if (!imgAdapter.tiles.get(i).isDisabled())
+                                tilesStillExist = true;
+
+                        // Calculate highscore
+                        if (!tilesStillExist){
+                            Toast.makeText(context,"Level Cleared!",Toast.LENGTH_SHORT).show();
+                            stopTime=System.nanoTime();
+                            elapsed=((stopTime-startTime)/1000000000);
+                            if ((elapsed < getHighscore()) || (getHighscore()==0)) {
+                                setHighscore(elapsed);
+                                Toast.makeText(context, "Congratulations! New highscore: " + elapsed + "s", Toast.LENGTH_SHORT).show();
+                            }
+                            // Switch to next level
+                            Handler handler = new Handler();
+                            handler.postDelayed(new Runnable() {
+                                @Override
+                                public void run() {
+                                    Intent intent = new Intent(Game.this, Game.class);
+                                    intent.putExtra("NR_TILES", "16");
+                                    startActivity(intent);
+                                }
+                            }, 5000);
+                        }
                     }
                 }
 
                 totalFlipped = 0;
+
+                // Enable clicking after a short while to avoid click spamming
+                Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        gameGridView.setEnabled(true);                    }
+                }, 50);
             }
         });
     }
@@ -119,13 +154,13 @@ public class Game extends Activity {
 
     public long getHighscore() {
         SharedPreferences app_preferences = PreferenceManager.getDefaultSharedPreferences(context);
-        return app_preferences.getLong("highscore2x2", 0);
+        return app_preferences.getLong("highscore"+nrTiles, 0);
     }
 
     void setHighscore(long data) {
         SharedPreferences app_preferences = PreferenceManager.getDefaultSharedPreferences(context);
         SharedPreferences.Editor editor = app_preferences.edit();
-        editor.putLong("highscore2x2", data);
+        editor.putLong("highscore"+nrTiles, data);
         editor.apply(); // Very important
     }
 

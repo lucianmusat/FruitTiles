@@ -44,7 +44,7 @@ public class MainMenu extends Activity {
 		            @Override
 		            public void run() {
 						Intent intent = new Intent(MainMenu.this, Game.class);
-						intent.putExtra("NR_TILES", "9");
+						intent.putExtra("NR_TILES", "4");
 						startActivity(intent);
 		            }
 		        }, 300);	

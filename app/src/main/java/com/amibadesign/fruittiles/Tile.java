@@ -31,7 +31,7 @@ public class Tile {
         return this.disabled;
     }
 
-    private void disable() {
+    void disable() {
         this.disabled = true;
     }
 
@@ -54,7 +54,6 @@ public class Tile {
 
     void flipTile(boolean alsoClose){
         if (!this.isDisabled()) {
-            this.img.setEnabled(false);
             switch (value) {
                 case 0:
                     this.img.setBackgroundResource(R.drawable.animation1);
@@ -108,12 +107,17 @@ public class Tile {
         }
     }
 
-    public void closeTile(){
-        img.setBackgroundResource(R.drawable.close_animation);
-        final AnimationDrawable frameAnimation2 = (AnimationDrawable) img.getBackground();
-        frameAnimation2.start();
+    void closeTile(int delay){
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                img.setBackgroundResource(R.drawable.close_animation);
+                final AnimationDrawable frameAnimation2 = (AnimationDrawable) img.getBackground();
+                frameAnimation2.start();
+            }
+        }, delay);
         this.disable();
-
     }
 
 }
