@@ -52,7 +52,7 @@ public class Tile {
     }
 
     void flipTile(boolean alsoClose){
-        Log.i("Tile", getValue() + " is disabled: " + isDisabled() + " is flipped: " + isFlipped());
+//        Log.i("Tile", getValue() + " is disabled: " + isDisabled() + " is flipped: " + isFlipped());
         if (!this.isDisabled()) {
             switch (value) {
                 case 0:

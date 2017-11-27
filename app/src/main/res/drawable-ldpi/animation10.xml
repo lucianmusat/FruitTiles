@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item android:drawable="@drawable/tile1" android:duration="50" />
+    <item android:drawable="@drawable/tile2" android:duration="50" />
+    <item android:drawable="@drawable/tile3" android:duration="50" />
+    <item android:drawable="@drawable/tile4" android:duration="50" />
+    <item android:drawable="@drawable/tile5" android:duration="50" />
+    <item android:drawable="@drawable/tilenine" android:duration="50" />
+</animation-list>

@@ -28,8 +28,8 @@ public class Game extends Activity {
     public static List<Integer> tiles = new ArrayList<Integer>();
     private Integer nrTiles;
 
-//    List<Integer> tileNumber = Arrays.asList(4, 6, 12, 16, 20);
-    List<Integer> tileNumber = Arrays.asList(4, 20);
+    List<Integer> tileNumber = Arrays.asList(4, 6, 12, 16, 20);
+//    List<Integer> tileNumber = Arrays.asList(4, 20);
 
     private boolean doubleBackToExitPressedOnce=false;
 
