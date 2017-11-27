@@ -95,22 +95,22 @@ public class HighScore extends Activity {
 	}
 	public static long getHighscore2() {
 		SharedPreferences app_preferences = PreferenceManager.getDefaultSharedPreferences(context);
-		long test = app_preferences.getLong("highscore16", 0);
+		long test = app_preferences.getLong("highscore6", 0);
 	    return test;
 	}
 	public static long getHighscore3() {
 		SharedPreferences app_preferences = PreferenceManager.getDefaultSharedPreferences(context);
-		long test = app_preferences.getLong("highscore3x4", 0);
+		long test = app_preferences.getLong("highscore12", 0);
 	    return test;
 	}
 	public static long getHighscore4() {
 		SharedPreferences app_preferences = PreferenceManager.getDefaultSharedPreferences(context);
-		long test = app_preferences.getLong("highscore4x4", 0);
+		long test = app_preferences.getLong("highscore16", 0);
 	    return test;
 	}
 	public static long getHighscore5() {
 		SharedPreferences app_preferences = PreferenceManager.getDefaultSharedPreferences(context);
-		long test = app_preferences.getLong("highscore4x5", 0);
+		long test = app_preferences.getLong("highscore20", 0);
 	    return test;
 	}
     private void setHighscore(long data) {

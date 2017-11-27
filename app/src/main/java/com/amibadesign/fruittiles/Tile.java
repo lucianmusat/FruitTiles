@@ -45,7 +45,6 @@ public class Tile {
         img.setBackgroundResource(R.drawable.animation1_big);
         value = valoare;
         context = parent;
-//        img.setOnClickListener(this);
     }
 
     int getValue(){
@@ -53,6 +52,7 @@ public class Tile {
     }
 
     void flipTile(boolean alsoClose){
+        Log.i("Tile", getValue() + " is disabled: " + isDisabled() + " is flipped: " + isFlipped());
         if (!this.isDisabled()) {
             switch (value) {
                 case 0:
@@ -78,6 +78,12 @@ public class Tile {
                     break;
                 case 7:
                     this.img.setBackgroundResource(R.drawable.animation8);
+                    break;
+                case 8:
+                    this.img.setBackgroundResource(R.drawable.animation9);
+                    break;
+                case 9:
+                    this.img.setBackgroundResource(R.drawable.animation10);
                     break;
             }
             this.flip();

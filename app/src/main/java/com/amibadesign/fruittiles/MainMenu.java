@@ -9,17 +9,17 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.Toast;
- 
+
 public class MainMenu extends Activity {
  
-	Button newGameButton,aboutButton,highscoreButton;
+	Button newGameButton, aboutButton, highScoreButton;
 	private boolean doubleBackToExitPressedOnce=false;
  
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-		setContentView(R.layout.main_menu); 
+		setContentView(R.layout.main_menu);
 		addListenerOnButton();
 	}
  
@@ -27,7 +27,7 @@ public class MainMenu extends Activity {
  
 		newGameButton = (Button) findViewById(R.id.newGame);
 		aboutButton = (Button) findViewById(R.id.exit);
-		highscoreButton = (Button) findViewById(R.id.highScores);
+		highScoreButton = (Button) findViewById(R.id.highScores);
 		
  
 		newGameButton.setOnClickListener(new OnClickListener() {
@@ -41,9 +41,9 @@ public class MainMenu extends Activity {
 		        handler.postDelayed(new Runnable() {
 		            @Override
 		            public void run() {
-						Intent intent = new Intent(MainMenu.this, Game.class);
-						intent.putExtra("NR_TILES", "4");
-						startActivity(intent);
+                        Intent intent = new Intent(MainMenu.this, Game.class);
+                        intent.putExtra("NR_TILES", "4");
+                        startActivity(intent);
 		            }
 		        }, 300);
 			}
@@ -67,13 +67,13 @@ public class MainMenu extends Activity {
 			}
 		});
 		
-		highscoreButton.setOnClickListener(new OnClickListener() {
+		highScoreButton.setOnClickListener(new OnClickListener() {
 			 
 			@Override
 			public void onClick(View arg0) {
-				highscoreButton.setBackgroundResource(R.drawable.highscores_pressed);
-				highscoreButton.setHeight(75);
-				highscoreButton.setWidth(390);
+				highScoreButton.setBackgroundResource(R.drawable.highscores_pressed);
+				highScoreButton.setHeight(75);
+				highScoreButton.setWidth(390);
 				final Handler handler = new Handler();  //handler for delayed animation. waits for eventual animations and then go to next game.
 		        handler.postDelayed(new Runnable() {
 		            @Override

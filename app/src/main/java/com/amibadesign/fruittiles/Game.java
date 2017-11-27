@@ -1,13 +1,13 @@
 package com.amibadesign.fruittiles;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
-import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
@@ -16,20 +16,21 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 public class Game extends Activity {
 
     private Context context;
-    public static int active_tiles=4;
     private static int totalFlipped = 0;
     public static long startTime;
     public static long stopTime;
     public static long elapsed;
     public static List<Integer> tiles = new ArrayList<Integer>();
     private Integer nrTiles;
-    public ImageView highscoreImg;
+
+//    List<Integer> tileNumber = Arrays.asList(4, 6, 12, 16, 20);
+    List<Integer> tileNumber = Arrays.asList(4, 20);
+
     private boolean doubleBackToExitPressedOnce=false;
 
     public Game(GridView gridView, Integer nrTiles) {
@@ -122,10 +123,16 @@ public class Game extends Activity {
                                 @Override
                                 public void run() {
                                     Intent intent = new Intent(Game.this, Game.class);
-                                    intent.putExtra("NR_TILES", "16");
+                                    int nextLevel = tileNumber.indexOf(nrTiles) + 1;
+                                    if (nextLevel > tileNumber.size()-1) {
+                                        // Go to main menu
+                                        intent = new Intent(Game.this, MainMenu.class);
+                                    } else
+                                        nrTiles = tileNumber.get(nextLevel);
+                                    intent.putExtra("NR_TILES", nrTiles.toString());
                                     startActivity(intent);
                                 }
-                            }, 5000);
+                            }, 3000);
                         }
                     }
                 }
