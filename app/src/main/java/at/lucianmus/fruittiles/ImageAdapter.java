@@ -1,15 +1,10 @@
-package com.amibadesign.fruittiles;
+package at.lucianmus.fruittiles;
 
 import android.content.Context;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.BaseAdapter;
-import android.widget.GridView;
-import android.widget.ImageView;
 import android.app.Activity;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

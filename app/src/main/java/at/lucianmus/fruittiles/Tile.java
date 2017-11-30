@@ -1,10 +1,9 @@
-package com.amibadesign.fruittiles;
+package at.lucianmus.fruittiles;
 
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Handler;
-import android.util.Log;
 import android.widget.ImageView;
 
 
@@ -42,7 +41,7 @@ public class Tile {
     Tile(final Activity parent, int id, int valoare){
         img = new SquareImageView(parent);
         img.setScaleType(ImageView.ScaleType.FIT_CENTER);
-        img.setBackgroundResource(R.drawable.animation1_big);
+        img.setBackgroundResource(R.drawable.animation1);
         value = valoare;
         context = parent;
     }

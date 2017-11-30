@@ -1,4 +1,4 @@
-package com.amibadesign.fruittiles;
+package at.lucianmus.fruittiles;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -44,6 +44,7 @@ public class MainMenu extends Activity {
                         Intent intent = new Intent(MainMenu.this, Game.class);
                         intent.putExtra("NR_TILES", "4");
                         startActivity(intent);
+                        newGameButton.setBackgroundResource(R.drawable.newgame);
 		            }
 		        }, 300);
 			}
@@ -62,6 +63,7 @@ public class MainMenu extends Activity {
 		            public void run() {
 						Intent k = new Intent(MainMenu.this, About.class);
 						startActivity(k);
+                        aboutButton.setBackgroundResource(R.drawable.about);
 		            }
 		        }, 300);
 			}
@@ -80,6 +82,7 @@ public class MainMenu extends Activity {
 		            public void run() {
 						Intent k = new Intent(MainMenu.this, HighScore.class);
 						startActivity(k);
+                        highScoreButton.setBackgroundResource(R.drawable.highscores);
 		            }
 		        }, 300);
 			}

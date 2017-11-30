@@ -1,4 +1,4 @@
-package com.amibadesign.fruittiles;
+package at.lucianmus.fruittiles;
 
 import android.content.Context;
 import android.util.AttributeSet;

@@ -4,7 +4,7 @@ android {
     compileSdkVersion 19
     buildToolsVersion "26.0.2"
     defaultConfig {
-        applicationId "com.amibadesign.fruittiles"
+        applicationId "com.amibadesign.at.lucianmus.fruittiles"
         minSdkVersion 19
         targetSdkVersion 15
     }

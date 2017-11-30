@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.amibadesign.fruittiles"
+    package="at.lucianmus.fruittiles"
     android:versionCode="5"
     android:versionName="1.4" >
 
@@ -16,7 +16,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.amibadesign.fruittiles.MainMenu"
+            android:name=".MainMenu"
             android:label="@string/app_name" >
             
             <intent-filter>
@@ -26,9 +26,9 @@
             </intent-filter>
         </activity>
         
-        <activity android:name="com.amibadesign.fruittiles.HighScore" />
-		<activity android:name="com.amibadesign.fruittiles.About" />
-        <activity android:name="com.amibadesign.fruittiles.Game" />
+        <activity android:name=".HighScore" />
+		<activity android:name=".About" />
+        <activity android:name=".Game" />
         
         
     </application>

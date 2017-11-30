@@ -1,10 +1,7 @@
-package com.amibadesign.fruittiles;
-
-import com.amibadesign.fruittiles.R;
+package at.lucianmus.fruittiles;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
@@ -18,7 +15,6 @@ import android.widget.Toast;
  
 public class HighScore extends Activity {
 	private static Context context;
-	private boolean doubleBackToExitPressedOnce=false;
 	Button button;
  
 	@Override
@@ -124,25 +120,5 @@ public class HighScore extends Activity {
         editor.putLong("highscore4x5", data);
         editor.commit(); // Very important
     }
-    
-    @Override
-    public void onBackPressed() {
-        if (doubleBackToExitPressedOnce) {
-			Intent i = new Intent(getApplicationContext(), MainMenu.class);
-			i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-			getApplicationContext().startActivity(i);
-            return;
-        }
-        this.doubleBackToExitPressedOnce = true;
-        Toast.makeText(this, "Click BACK again for Main Menu", Toast.LENGTH_SHORT).show();
-        new Handler().postDelayed(new Runnable() {
 
-            @Override
-            public void run() {
-             doubleBackToExitPressedOnce=false;   
-
-            }
-        }, 2000);
-    } 	    
- 
 }
